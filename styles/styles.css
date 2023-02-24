@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-primaria: black;
+    --cor-segundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-houver: #272727;
+
+    --font-primaria: 'Krona One', sans-serif ;
+    --font-segundaria: 'Montserrat', sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    /*height: 100vh; */
+    background-color: var(--cor-primaria);
+    color: var(--cor-segundaria);
+}
+
+.cabecalho{
+    padding: 2% 0%  0% 15%;
+}
+
+.menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+
+.menu_link{
+    font-family: var(--font-segundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding: 5% 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.titulo{
+    font-family: var(--font-primaria);
+    font-size: 36px;
+}
+
+.tituloDestaque{
+    color: var(--cor-terciaria);
+}
+
+.texto{
+    font-family: var(--cor-segundaria);
+    font-size: 24px;
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.texto_apresentacao{
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-terciaria);
+
+}
+
+.botao1{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    text-decoration: none;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    color: var(--cor-segundaria);
+    font-weight: 600;
+    font-family: var(--cor-segundaria);
+}
+
+.botao1:hover{
+    background-color: var(--cor-houver);
+}
+
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--cor-segundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
